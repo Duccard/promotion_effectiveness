@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Python-specific metadata
+*.log
+*.pot
+*.pyc
+*.pyo
+
+# Data and output files
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.sav
+*.h5
+*.pkl
+*.joblib
+*.db
+
+# Reports and generated artifacts
+*.pdf
+*.html
+*.zip
+*.tar.gz
+
+# Project-specific
+/data/
+outputs/
+models/
+__results__/
+
+# Environment files
+*.env
+*.conda
+*.yml
+*.toml
+*.lock
+
+# Notebook export formats
+*.nbconvert.ipynb
+
+# Ignore secret credential
+secrets.*
