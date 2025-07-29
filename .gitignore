@@ -26,7 +26,6 @@ ENV/
 *.pyo
 
 # Data and output files
-*.csv
 *.tsv
 *.xlsx
 *.xls
@@ -37,13 +36,11 @@ ENV/
 *.db
 
 # Reports and generated artifacts
-*.pdf
 *.html
 *.zip
 *.tar.gz
 
 # Project-specific
-/data/
 outputs/
 models/
 __results__/
